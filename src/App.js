@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/restaurant-view' element={<RestView/>}/>
+        <Route path='/restaurant-view/:id' element={<RestView/>}/>{/* path parameter */}
       </Routes>
      
       <Footer/>
